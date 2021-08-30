@@ -1,0 +1,40 @@
+footer {
+}
+//====================================================================================================
+.footer {
+    text-align: center;
+    padding: 51px 0;
+    &__container {
+    }
+
+    &__social {
+        margin-bottom: 26px;
+    }
+
+    &__copyrights {
+        font-size: 14px;
+        line-height: 21 / 14 * 100%;
+    }
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__item {
+        font-size: 30px;
+        display: inline-block;
+        margin-right: 35px;
+        color: $mainColor;
+        @media (min-width: $md2+px) {
+            &:hover {
+                color: #ff6464;
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+//====================================================================================================
